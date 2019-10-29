@@ -10,10 +10,7 @@ date_default_timezone_set('Europe/Vilnius');
             Valdas - Galbūt turėsiu <?php print rand(1, 5); ?> vaikų(us)!
         </h1>
         <p>
-            D. Trumpas nebus prezidentu: 
-                <?php 
-                    print date('Y', strtotime('+' . rand(2, 10) . 'years')) . ', ' . date('m') . ', ' . date('d'); 
-                ?>
+            D. Trumpas nebus prezidentu: <?php print date('Y', strtotime('+' . rand(2, 10) . 'years')) . ', ' . date('m') . ', ' . date('d'); ?>
         </p>
     </body>
 </html>
