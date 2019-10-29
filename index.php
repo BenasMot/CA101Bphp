@@ -1,11 +1,12 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Aš valdau HTML!</title>
+    <title>Aš valdau HTML ir PHP!</title>
 </head>
 <body>
-    <h1><strong>Valdas</strong> - HTML asas!</h1>
-    <p>Moku kurti statinį turinį.</p>
+    <h1>Valdas - HTML ir PHP asas!</h1>
+    <p>Kuriu dinaminį turinį.</p>
+        <p> Atidaryta: <?php 
+            date_default_timezone_set('Europe/Vilnius');
+            print date("Y/m/d h:i:s") ?></p>
 </body>
 </html>
