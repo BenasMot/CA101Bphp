@@ -4,12 +4,12 @@ date_default_timezone_set('Europe/Vilnius');
 
 <html lang='en'>
     <head>
-        <title><?php print 'Aš, ' . date('l') . ' ir PHP'; ?></title>
+        <title>PHP lydės ir <?php print date('l', strtotime('+1 day')); ?></title>
     </head>
     <body>
-        <h1>Valdas - HTML <?php print 'ir PHP'; ?> asas <br> jau nuo <?php print date('Y') . ' metų'; ?></h1>
+        <h1>Valdas - PHP su manim buvo ir <?php print date('h', strtotime('-1 hour')) . ' valandą!'; ?></h1>
         <p>
-            Viskas prasidėjo <?php print date('F') . ' mėnesio, ' . date('j') . ' dieną!'; ?>
+            <?php print date('Y', strtotime('+1 year')) ?> ne už kalnų!
         </p>
     </body>
 </html>
