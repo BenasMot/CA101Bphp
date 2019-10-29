@@ -12,9 +12,7 @@ date_default_timezone_set('Europe/Vilnius');
         <p>
             D. Trumpas nebus prezidentu: 
                 <?php 
-                    print date('Y', strtotime('+' . rand(2, 10) . 'years')) . ', ';
-                    print date('m') . ', ';
-                    print date('d'); 
+                    print date('Y', strtotime('+' . rand(2, 10) . 'years')) . ', ' . date('m') . ', ' . date('d'); 
                 ?>
         </p>
     </body>
