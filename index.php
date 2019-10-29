@@ -1,2 +1,2 @@
 <?php
-    print 'Veikia!';
+    print '(ne)Veikia!';
