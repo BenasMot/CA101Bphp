@@ -10,8 +10,7 @@
     <h1>Valdas - HTML <?php print "ir PHP"?> asas!</h1>
     <p>Kuriu dinaminį turinį.</p>
         <p> Atidaryta: 
-            <?php 
-            date_default_timezone_set('Europe/Vilnius');
+            <?php
             print date("Y/m/d h:i:s"); 
             ?>
         </p>
