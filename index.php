@@ -4,14 +4,13 @@
 
 <html lang="en">
 <head>
-    <title>Aš valdau HTML <?php print "ir PHP"?>!</title>
+    <title><?php print "Aš, " . date("l") . " ir PHP"; ?></title>
 </head>
 <body>
-    <h1>Valdas - HTML <?php print "ir PHP"?> asas!</h1>
-    <p>Kuriu dinaminį turinį.</p>
-        <p> Atidaryta: 
+    <h1>Valdas - HTML <?php print "ir PHP"?> asas <br> jau nuo <?php print date("Y") . " metų"; ?></h1>
+        <p>Viskas prasidėjo 
             <?php
-            print date("Y/m/d h:i:s"); 
+            print date("F") . " mėnesio, " . date("j") . " dieną!"; 
             ?>
         </p>
 </body>
