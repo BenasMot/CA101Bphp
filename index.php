@@ -7,7 +7,7 @@ date_default_timezone_set('Europe/Vilnius');
     </head>
     <body>
         <h1>
-            Valdas - Galbūt turėsiu <?php print rand(1, 8); ?> vaikų(us)!
+            Valdas - Galbūt turėsiu <?php print rand(1, 5); ?> vaikų(us)!
         </h1>
         <p>
             D. Trumpas nebus prezidentu: 
