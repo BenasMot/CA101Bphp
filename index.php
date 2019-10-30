@@ -1,18 +1,19 @@
-<?php
-date_default_timezone_set('Europe/Vilnius');
-?>
 <html lang='en'>
     <head>
-        <title>PHP lydės ir <?php print date('Y/m/d', strtotime('-' . rand() . 'hours')); ?></title>
+        <style>
+            
+            body {background-color: rgb(<?php print rand(0,255)?>, <?php print rand(0,255)?>, <?php print rand(0,255); ?>);}
+            h1 {font-size: <?php print rand(1,50)?>px;}
+            p {color: rgb(<?php print rand(0,255)?>, <?php print rand(0,255)?>, <?php print rand(0,255); ?>);}
+            
+        </style>
     </head>
-    <body>
+    <body> 
         <h1>
-            Valdas - Galbūt turėsiu <?php print rand(1, 5); ?> vaikų(us)!
+            Aš keičiu savo dydį!
         </h1>
         <p>
-            D. Trumpas nebus prezidentu: <?php print date('Y', strtotime('+' . rand(2, 10) . 'years')) . ', ' . date('m') . ', ' . date('d'); ?>
+            Aš keičiu savo spalvą!
         </p>
     </body>
 </html>
-
-test
