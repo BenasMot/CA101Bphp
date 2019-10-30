@@ -2,19 +2,19 @@
     <head>
         <style>
             .dice-1 {
-                background-image: url("https://www.clipartwiki.com/clipimg/detail/126-1269474_dice-clipart-number-one-1-side-of-dice.png");
+                background-image: url("https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_1-512.png");
                 height: 100%;
                 width: 100%;
                 background-repeat: no-repeat;
             }
             .dice-2 {
-                background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDXs6WwDEAPbIBZupe-_GlrU64mTozgcyXPWVWxXOI5ytwBQNC&s");
+                background-image: url("https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_2-512.png");
                 height: 100%;
                 width: 100%;
                 background-repeat: no-repeat;
             }
             .dice-3 {
-                background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dice-3-b.svg/240px-Dice-3-b.svg.png");
+                background-image: url("https://cdn3.iconfinder.com/data/icons/line/36/dice_three-512.png");
                 height: 100%;
                 width: 100%;
                 background-repeat: no-repeat;
