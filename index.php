@@ -2,8 +2,8 @@
     <head>
         <style>
             .img {
-                width: <?php print date('s') / 4; ?>%;
-                height: <?php print date('s') / 4; ?>%;
+                width: <?php print date('s'); ?>%;
+                height: <?php print date('s'); ?>%;
                 background-repeat: no-repeat;
                 background-position: center;
                 background-size: cover;
@@ -20,7 +20,7 @@
             <div class="img">
             </div>
             <div>
-                <?php print date('s') / 4; ?>
+                <?php print date('s'); ?>
             </div>
         </div>    
     </body>
