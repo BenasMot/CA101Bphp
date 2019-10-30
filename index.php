@@ -1,33 +1,27 @@
 <html lang='en'>
     <head>
         <style>
-            .dice-1 {
-                background-image: url("https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_1-512.png");
-            }
-            .dice-2 {
-                background-image: url("https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_2-512.png");
-            }
-            .dice-3 {
-                background-image: url("https://cdn3.iconfinder.com/data/icons/line/36/dice_three-512.png");
-            }
-            .dice-4 {
-                background-image: url("https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_4-512.png");
-            }
-            .dice-5 {
-                background-image: url("https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_5-512.png");
-            }
-            .dice-6 {
-                background-image: url("https://cdn2.iconfinder.com/data/icons/dice-roll/100/dice_6-512.png");
-            }
             .img {
-                height: 100%;
-                width: 100%;
+                width: <?php print date('s') / 4; ?>%;
+                height: <?php print date('s') / 4; ?>%;
                 background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                background-image: url("https://files.gamebanana.com/img/ico/sprays/4ea33068c0dcc.png");
+            }
+            .box {
+                width: 100vw;
+                height: 100vh;
             }
         </style>
     </head>
     <body> 
-        <div class="img dice-<?php print rand(1, 6); ?>">
-        </div>
+        <div class="box">
+            <div class="img">
+            </div>
+            <div>
+                <?php print date('s') / 4; ?>
+            </div>
+        </div>    
     </body>
 </html>
