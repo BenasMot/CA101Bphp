@@ -28,7 +28,7 @@
             <div class="img img-<?php print date('s'); ?>">
             </div>
             <div>
-                img-<?php print date('s'); ?>
+                <?php print date('s'); ?>
             </div>
         </div>    
     </body>
